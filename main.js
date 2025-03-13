@@ -31,7 +31,7 @@ let itv = setInterval(function() {
     defaultFriction, pushbackInfo, pushbackModels;
 async function getData() {
     const _0x2265d8 = _0x5694;
-    let _0x4e315b = 'https://raw.githubusercontent.com/TotallyRealElonMusk/GeoFS-Pushback/main/pushback%20data/pushback.json';
+    let _0x4e315b = 'https://raw.githubusercontent.com/Hacker-Sloth/pushback/refs/heads/main/pushback%20data/pushback.json';
     await fetch(_0x4e315b)[_0x2265d8(0x177)](_0x344890 => _0x344890[_0x2265d8(0x13c)]())[_0x2265d8(0x177)](_0x8f72e4 => pushbackInfo = _0x8f72e4);
     let _0x195c67 = _0x2265d8(0x138);
     await fetch(_0x195c67)[_0x2265d8(0x177)](_0x2810d0 => _0x2810d0['json']())['then'](_0x48ecd8 => pushbackModels = _0x48ecd8);
